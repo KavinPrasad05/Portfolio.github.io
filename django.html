@@ -105,18 +105,19 @@ Implemented session based authentication with email login and Django Groups, enf
 					<!-- Project 3: Replace with your actual project -->
 					<article>
 						<header>
-							<span class="date">Month, 2023</span>
-							<h2><a href="https://github.com/KavinPrasad05/YOUR-REPO-3">Project Title Three<br /></a></h2>
+							<span class="date">April, 2026</span>
+							<h2><a href="https://github.com/KavinPrasad05/YOUR-REPO-3">Book Store API <br /></a></h2>
 						</header>
-						<a class="image fit"><img src="images/django-project3.jpg" alt="Project 3" /></a>
 						<div class="tech-tags">
 							<span class="tech-tag green">Django</span>
+							<span class="tech-tag blue">REST API</span>
 							<span class="tech-tag blue">DRF</span>
-							<span class="tech-tag orange">Docker</span>
 						</div>
-						<p>Describe your third Django project here. If it's a full-stack app, mention the frontend integration. If it's a backend API, mention how it was tested and deployed.</p>
+						<p>Engineered a Book Store REST API using Django REST Framework and JWT authentication, modularizing the codebase into 4 independent Django apps (users, books, cart, reviews) with a custom IsAdminOrReadOnly permission class, reducing unauthorized write access incidents to zero across all book endpoints.
+Built a full cart management pipeline supporting add, update, and remove operations with serializer-level stock validation and unique_together duplicate prevention, alongside dynamic search and filtering across 3+ fields using django-filter, improving book discovery and cart integrity for end users.
+Implemented context-aware serializer switching via get_serializer_class() across all views and a nested Review system with per-user duplicate prevention, serving optimized read/write serializers per HTTP method and enforcing clean separation of concerns throughout the project.</p>
 						<ul class="actions special">
-							<li><a href="https://github.com/KavinPrasad05/YOUR-REPO-3" class="button">View Project</a></li>
+							<li><a href="https://github.com/KavinPrasad05/Book-Store-API" class="button">View Project</a></li>
 						</ul>
 					</article>
 
